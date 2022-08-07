@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <ul class="topnav">
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li class="right"><a href="#about">About</a></li>
+</ul>
+<div class="input-group mb-3">
+    <form action="" enctype="multipart/form-data" method="post">
+        <input type="file" class="form-control" id="inputGroupFile02" name="file">
+        <label class="input-group-text" for="inputGroupFile02" >Upload</label>
+        <input type="submit" value="这才是上传">
+    </form>
+</div>
+{% endblock %}
